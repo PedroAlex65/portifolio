@@ -127,7 +127,7 @@ export const Content_Footer = styled.footer`
       display: flex;
       position: absolute;
       align-items: center;
-
+/*  */
       h1 {
         font-size: 25px;
       }
