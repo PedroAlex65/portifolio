@@ -121,7 +121,7 @@ export const Content_Footer = styled.footer`
     .image-email {
       margin-top: 100px;
       opacity: 0.1;
-      width: 420px;
+      width: 390px;
     }
     .texts-footer {
       display: flex;

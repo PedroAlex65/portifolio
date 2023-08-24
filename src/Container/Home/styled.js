@@ -35,7 +35,7 @@ export const ContainerHome = styled.div`
     justify-content: center;
 
     .image-logo {
-      width: 400px;
+      width: 380px;
       position: absolute;
       opacity: 1;
     }
