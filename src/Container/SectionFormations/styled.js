@@ -142,15 +142,17 @@ export const Container_Section = styled.div`
   @media (max-width: 428px) {
     max-width: 380px;
     margin: 0 auto;
+    display: flex;
+    
     .box-formations {
       margin-top: 139px;
       display: grid;
       grid-template-columns: 1fr;
       gap: 14px;
       margin-bottom: 99px;
-
+      padding-left: 10%;
       .box {
-        width: 380px;
+        width: 90%;
         height: 286px;
         background-color: #25262a;
         border-radius: 10px;

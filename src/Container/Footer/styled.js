@@ -121,7 +121,7 @@ export const Content_Footer = styled.footer`
     .image-email {
       margin-top: 100px;
       opacity: 0.1;
-      width: 390px;
+      width: 100%;
     }
     .texts-footer {
       display: flex;
@@ -142,8 +142,9 @@ export const Content_Footer = styled.footer`
         gap: 26px;
 
         input {
-          width: 350px;
+          width: 300px;
           height: 62px;
+          font-size: 15px;
         }
       }
       .midia {

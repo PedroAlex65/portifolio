@@ -3,11 +3,13 @@ import ProjectFrame from "../../assets/projectOne.svg";
 import Fire from "../../assets/fogo.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Pagination } from "swiper/modules";
+import { EffectCreative  } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
 export const Projects = () => {
+
+
   return (
     <Section>
       <Container_Projects className="container_in_projects">
@@ -21,13 +23,19 @@ export const Projects = () => {
         </div>
         <Box>
           <Swiper
-            slidesPerView={3}
-            spaceBetween={30}
-            pagination={{
-              clickable: true,
-            }}
-            modules={[Pagination]}
-            className="mySwiper"
+         grabCursor={true}
+         effect={'creative'}
+         creativeEffect={{
+           prev: {
+             shadow: true,
+             translate: [0, 0, -400],
+           },
+           next: {
+             translate: ['100%', 0, 0],
+           },
+         }}
+         modules={[EffectCreative]}
+         className="mySwiper"
           >
             <SwiperSlide className="slide-swiper">
               <div className="box-projects">
