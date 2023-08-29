@@ -29,7 +29,7 @@ export const Projects = () => {
             modules={[Pagination]}
             className="mySwiper"
           >
-            {" "}
+
             <SwiperSlide className="slide-swiper">
               <div className="box-projects">
                 <img className="image-projects" src={ProjectFrame} alt="" />
@@ -47,7 +47,7 @@ export const Projects = () => {
             <SwiperSlide className="slide-swiper">
               <div className="box-projects">
                 <img className="image-projects" src={ProjectFrame} alt="" />
-                <h1>Shop Mood</h1>
+                <h1>Social Dog</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -61,7 +61,7 @@ export const Projects = () => {
             <SwiperSlide className="slide-swiper">
               <div className="box-projects">
                 <img className="image-projects" src={ProjectFrame} alt="" />
-                <h1>Shop Mood</h1>
+                <h1>Social Cat</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -75,7 +75,7 @@ export const Projects = () => {
             <SwiperSlide className="slide-swiper">
               <div className="box-projects">
                 <img className="image-projects" src={ProjectFrame} alt="" />
-                <h1>Shop Mood</h1>
+                <h1>Facebook</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -89,7 +89,7 @@ export const Projects = () => {
             <SwiperSlide className="slide-swiper">
               <div className="box-projects">
                 <img className="image-projects" src={ProjectFrame} alt="" />
-                <h1>Shop Mood</h1>
+                <h1>Instagram</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -103,7 +103,7 @@ export const Projects = () => {
             <SwiperSlide className="slide-swiper">
               <div className="box-projects">
                 <img className="image-projects" src={ProjectFrame} alt="" />
-                <h1>Shop Mood</h1>
+                <h1>SpaceX</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
