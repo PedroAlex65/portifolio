@@ -189,6 +189,7 @@ export const Box = styled.div`
       justify-content: center;
       gap: 300px;
       align-items: center;
+      padding-left: 100px;
     }
     .box-projects {
       display: flex;
