@@ -50,6 +50,7 @@ p {
         width: 300px;
         height: 400px;
         border-radius: 10px;
+        padding-bottom: 420px;
     }
 
     .cardSlider {
@@ -63,8 +64,7 @@ p {
         flex-direction: column;
     }
 
-    .box-projects>img {
-    }
+ 
 
     h1 {
         color: #fff;
