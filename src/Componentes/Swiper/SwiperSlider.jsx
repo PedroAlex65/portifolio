@@ -37,7 +37,7 @@ const SwiperSlider = () => {
         <Swiper
           className="mySwiperPagination"
           slidesPerView={3}
-          spaceBetween={30}
+          spaceBetween={40}
           pagination={{
             clickable: true,
           }}
