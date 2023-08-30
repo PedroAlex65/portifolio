@@ -42,7 +42,7 @@ const SwiperSlider = () => {
             clickable: true,
           }}
           modules={[Pagination]}
-          className="mySwiper"
+          className="mySwiperPagination"
         >
           <SwiperSlide className="cardSlider">
             <div className="box-projects">
@@ -123,7 +123,7 @@ const SwiperSlider = () => {
             clickable: true,
           }}
           modules={[Pagination]}
-          className="mySwiper"
+          className="mySwiperPagination"
         >
           {" "}
           <SwiperSlide className="cardSlider">
