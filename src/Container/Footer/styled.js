@@ -49,6 +49,18 @@ export const Content_Footer = styled.footer`
         line-height: 23px;
         padding-left: 19px;
       }
+
+      button{
+          height: 45px;
+          background-color: #1CAC80;
+          font-size: 20px;
+          color: #9E9E9E;
+          font-weight: bold;
+          text-align: center;
+          border-radius: 10px;
+          border: none;
+          cursor: pointer;
+        }
     }
     .midia {
       display: flex;
@@ -145,6 +157,17 @@ export const Content_Footer = styled.footer`
           width: 300px;
           height: 62px;
           font-size: 15px;
+        }
+
+        button{
+          width: 155px;
+          height: 45px;
+          background-color: #1CAC80;
+          font-size: 20px;
+          color: #9E9E9E;
+          font-weight: bold;
+          text-align: center;
+          border-radius: 10px;
         }
       }
       .midia {

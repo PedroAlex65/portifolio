@@ -21,6 +21,7 @@ const Footer = () => {
             <input type="text" placeholder="Seu Nome" />
             <input type="text" placeholder="Seu Email" />
             <input type="text" placeholder="Deixe sua mensagem aqui." />
+            <button>ENVIAR</button>
           </form>
           <div className="midia">
             <a href="https://github.com/PedroAlex65"><img src={GitHub} alt="" /></a>
