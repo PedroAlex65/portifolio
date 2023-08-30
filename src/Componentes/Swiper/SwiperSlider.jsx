@@ -15,12 +15,12 @@ const SwiperSlider = () => {
 
   useEffect(() => {
     function displayMobile() {
-      if (window.innerWidth < 449) {
-        setMobile(true);
+      if (window.innerWidth > 449) {
+        setMobile(false);
         console.log("Tela Menor que 449px");
       } else {
+        setMobile(true)
         console.log("Tela Maior que 449px");
-
       }
     }
     displayMobile();
@@ -36,13 +36,42 @@ const SwiperSlider = () => {
     <>
       {mobile ? (
         <Swiper
-        pagination={{
-          dynamicBullets: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
+          slidesPerView={1}
+          spaceBetween={30}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination]}
+          className="mySwiper"
         >
-         
+          <SwiperSlide className="cardSlider">
+            <div className="box-projects">
+              <img className="image-projects" src={ProjectFrame} alt="" />
+              <h1>Shop Mood</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div className="live">
+                <h2>LIVE PREVIEW</h2>
+                <img src={Fire} alt="" />
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="cardSlider">
+            <div className="box-projects">
+              <img className="image-projects" src={ProjectFrame} alt="" />
+              <h1>Shop Mood</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div className="live">
+                <h2>LIVE PREVIEW</h2>
+                <img src={Fire} alt="" />
+              </div>
+            </div>
+          </SwiperSlide>
           <SwiperSlide className="cardSlider">
             <div className="box-projects">
               <img className="image-projects" src={ProjectFrame} alt="" />
@@ -88,14 +117,15 @@ const SwiperSlider = () => {
         </Swiper>
       ) : (
         <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
+          slidesPerView={3}
+          spaceBetween={30}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination]}
+          className="mySwiper"
+        >
+          {" "}
           <SwiperSlide className="cardSlider">
             <div className="box-projects">
               <img className="image-projects" src={ProjectFrame} alt="" />
@@ -166,7 +196,21 @@ const SwiperSlider = () => {
               </div>
             </div>
           </SwiperSlide>
-      </Swiper>
+          <SwiperSlide className="cardSlider">
+            <div className="box-projects">
+              <img className="image-projects" src={ProjectFrame} alt="" />
+              <h1>Shop Mood</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div className="live">
+                <h2>LIVE PREVIEW</h2>
+                <img src={Fire} alt="" />
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       )}
     </>
   );
