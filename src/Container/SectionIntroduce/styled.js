@@ -41,7 +41,7 @@ export const Container_In_Section = styled.div`
       padding-top: 122px;
     }
   }
-  @media (max-width: 428px) {
+  @media (max-width: 500px) {
     max-width: 380px;
 
     h3 {
@@ -60,7 +60,7 @@ export const Container = styled.div`
     flex-direction: column;
     margin-top: 100px;
   }
-  @media (max-width: 428px) {
+  @media (max-width: 500px) {
     align-items: center;
     flex-direction: column-reverse;
     margin-top: 60px;
@@ -112,7 +112,7 @@ export const Container_Texts = styled.div`
 
   @media (max-width: 1440px) {
     .teste {
-      width: 600px;
+      max-width: 100%;
       height: 93px;
 
       h4 {
@@ -124,10 +124,10 @@ export const Container_Texts = styled.div`
     }
   }
 
-  @media (max-width: 428px) {
+  @media (max-width: 500px) {
     align-items: center;
     .teste {
-      width: 90%;
+      max-width: 50%;
 
       h4 {
         font-size: 18px;
@@ -200,7 +200,7 @@ export const Container_Introduce = styled.div`
       font-size: 18px;
     }
   }
-  @media (max-width: 428px) {
+  @media (max-width: 500px) {
     gap: 10px;
     h1 {
       text-align: center;

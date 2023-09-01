@@ -17,7 +17,7 @@ export const ContainerHome = styled.div`
     margin: 0 auto;
   }
 
-  @media (max-width: 834px) {
+  @media (max-width:884px)  {
     max-width: 700px;
     align-items: center;
     justify-content: center;

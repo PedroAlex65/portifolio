@@ -45,7 +45,7 @@ p {
     font-weight: bold;
 }
 
-@media (max-width:449px) {
+@media (max-width:500px) {
     .mySwiperPagination {
         width: 300px;
         height: 400px;
@@ -63,9 +63,6 @@ p {
         display: flex;
         flex-direction: column;
     }
-
- 
-
     h1 {
         color: #fff;
         margin-top: 20px;

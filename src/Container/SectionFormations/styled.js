@@ -14,7 +14,7 @@ export const Container_Section = styled.div`
   @media (max-width: 768px) {
     max-width: 700px;
   }
-  @media (max-width: 428px) {
+  @media (max-width: 500px) {
     max-width: 380px;
   }
 
@@ -139,7 +139,7 @@ export const Container_Section = styled.div`
     }
   }
 
-  @media (max-width: 428px) {
+  @media (max-width: 500px) {
     max-width: 380px;
     margin: 0 auto;
     display: flex;

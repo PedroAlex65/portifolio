@@ -64,7 +64,7 @@ export const Container_Projects = styled.div`
     margin: 0 auto;
     padding-top: 130px;
   }
-  @media (max-width: 428px) {
+  @media (max-width: 500px) {
     max-width: 380px;
     margin: 0 auto;
     padding-top: 130px;

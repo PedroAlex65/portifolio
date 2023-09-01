@@ -15,7 +15,7 @@ const SwiperSlider = () => {
 
   useEffect(() => {
     function displayMobile() {
-      if (window.innerWidth > 449) {
+      if (window.innerWidth > 570) {
         setMobile(false);
         console.log("Tela Menor que 449px");
       } else {

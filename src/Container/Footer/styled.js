@@ -86,7 +86,6 @@ export const Content_Footer = styled.footer`
         gap: 25px;
 
         input {
-          width: 450px;
           height: 62px;
         }
       }
@@ -98,7 +97,7 @@ export const Content_Footer = styled.footer`
     }
   }
 
-  @media (max-width: 768px) {
+  @media  (max-width:884px) {
     max-width: 700px;
     justify-content: center;
 
@@ -114,7 +113,7 @@ export const Content_Footer = styled.footer`
         gap: 25px;
 
         input {
-          width: 450px;
+          width: 110%;
           height: 62px;
         }
       }
@@ -126,14 +125,14 @@ export const Content_Footer = styled.footer`
       }
     }
   }
-  @media (max-width: 428px) {
+  @media (max-width: 500px) {
     max-width: 380px;
     justify-content: center;
 
     .image-email {
       margin-top: 100px;
       opacity: 0.1;
-      width: 100%;
+      width: 90%;
     }
     .texts-footer {
       display: flex;
@@ -154,7 +153,6 @@ export const Content_Footer = styled.footer`
         gap: 26px;
 
         input {
-          width: 300px;
           height: 62px;
           font-size: 15px;
         }

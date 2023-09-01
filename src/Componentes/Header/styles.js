@@ -65,7 +65,7 @@ export const ContainerHeader = styled.div`
       font-size: 18px;
     }
   }
-  @media (max-width: 428px) {
+  @media (max-width: 500px) {
     max-width: 380px;
 
     .menu {
