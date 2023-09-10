@@ -125,9 +125,10 @@ export const Container_Texts = styled.div`
   }
 
   @media (max-width: 500px) {
+    max-width: 100%;
     align-items: center;
     .teste {
-      max-width: 50%;
+      max-width: 85%;
 
       h4 {
         font-size: 18px;
